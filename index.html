@@ -19,7 +19,7 @@
         var contanter = document.querySelector('#result');
         $.ajax({
           type: 'GET',
-          url: '/api/v1/',
+          url: 'api/v1/',
         })
           .then(function (result) {
             contanter.innerHTML = result.message;
